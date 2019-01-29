@@ -1,0 +1,41 @@
+document{
+}
+
+body {
+background: black;
+font-family: monospace;
+font-size: 1em;
+}
+
+#ekran{
+background: #0000FF;
+width: 78ch;
+height: 25em;
+position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#tyt {
+background: white;
+color: #0000FF;
+white-space: pre;
+position: relative;
+top: 7em;
+left: 35ch; 
+}
+
+#tresc {
+color: white;
+white-space: pre;
+position: relative; 
+left: 4ch; 
+top: 8em;
+right: 0;
+bottom: 0;
+}
